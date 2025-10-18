@@ -34,6 +34,9 @@
 # Visual Studio cache directory
 .vs/
 
+Library/
+
+
 # Gradle cache directory
 .gradle/
 
@@ -97,3 +100,14 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+
+# Unity - Dossiers à ne pas versionner
+Library/
+Temp/
+Logs/
+Obj/
+Build/
+UserSettings/
+MemoryCaptures/
+.vscode/
