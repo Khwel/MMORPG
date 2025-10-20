@@ -1,0 +1,32 @@
+# === GESTION DES FINS DE LIGNES ===
+* text=auto
+
+# Force les fichiers de script à utiliser LF (meilleure compatibilité)
+*.cs text eol=lf
+*.js text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+
+# Meta et asset files d'Unity : auto
+*.meta text
+*.asset text
+
+# Images binaires : pas de conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+
+# Prefabs, Scenes : pas de conversion (binaire ou texte)
+*.prefab text
+*.unity text
+
+# Ne pas modifier les archives
+*.zip binary
+*.dll binary
+*.exe binary
+
+# Ignore .DS_Store et Thumbs.db
+.DS_Store text eol=lf
+Thumbs.db text eol=lf
